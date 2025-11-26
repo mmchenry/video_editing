@@ -1,0 +1,19 @@
+name: video_edits
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - opencv
+  - ffmpeg
+  - numpy
+  - pillow
+  - moviepy
+  - imageio
+  - imageio-ffmpeg
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+    - opencv-python-headless  # Additional opencv package for headless environments
+
